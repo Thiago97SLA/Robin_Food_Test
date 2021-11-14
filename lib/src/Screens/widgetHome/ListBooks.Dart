@@ -229,7 +229,7 @@ Widget showmoreinfoAuthor(BuildContext context, dynamic data) {
                                   child: FontWidget(
                                       overflow: TextOverflow.ellipsis,
                                       text: data['name'],
-                                      size: 20,
+                                      size: 18,
                                       color: 0xFF000000,
                                       fontWeight: FontWeight.w700,
                                       textAlign: TextAlign.center),
@@ -239,7 +239,7 @@ Widget showmoreinfoAuthor(BuildContext context, dynamic data) {
                                       MediaQuery.of(context).size.width * 0.5,
                                   child: FontWidget(
                                       text: data['top_work'],
-                                      size: 18,
+                                      size: 16,
                                       color: 0xFF000000,
                                       fontWeight: FontWeight.w600,
                                       textAlign: TextAlign.center),
@@ -333,7 +333,7 @@ Widget showmoreinfobook(BuildContext context, dynamic book) {
                                           .toString()
                                           .replaceAll('[', '')
                                           .replaceAll(']', ''),
-                                      size: 20,
+                                      size: 18,
                                       color: 0xFF000000,
                                       fontWeight: FontWeight.w700,
                                       textAlign: TextAlign.center),
@@ -343,7 +343,7 @@ Widget showmoreinfobook(BuildContext context, dynamic book) {
                                       MediaQuery.of(context).size.width * 0.45,
                                   child: FontWidget(
                                       text: book['title'].toString(),
-                                      size: 18,
+                                      size: 16,
                                       color: 0xFF000000,
                                       fontWeight: FontWeight.w600,
                                       textAlign: TextAlign.center),
@@ -430,7 +430,7 @@ Widget showmoreinfobook(BuildContext context, dynamic book) {
                           borderRadius: BorderRadius.all(Radius.circular(8))),
                       child: FontWidget(
                           text: 'Agregar a favoritos',
-                          size: 18,
+                          size: 16,
                           color: 0xFFFFFFFF,
                           fontWeight: FontWeight.w600,
                           textAlign: TextAlign.center),
@@ -481,7 +481,7 @@ Widget containerTitle(BuildContext context, String text) {
     width: MediaQuery.of(context).size.width * 0.6,
     child: FontWidget(
         text: text,
-        size: 18,
+        size: 16,
         color: 0xFF000000,
         fontWeight: FontWeight.w700,
         textAlign: TextAlign.start),

@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
                   padding: const EdgeInsets.only(right: 8.0),
                   child: FontWidget(
                       text: 'Search your book'.toUpperCase(),
-                      size: 25,
+                      size: 20,
                       color: 0xFFFFFFFF,
                       fontWeight: FontWeight.w700,
                       textAlign: TextAlign.center),
@@ -96,7 +96,7 @@ class _HomeState extends State<Home> {
                                 Container(
                                   child: FontWidget(
                                       text: 'Autores',
-                                      size: 20,
+                                      size: 18,
                                       color: 0xFF000000,
                                       fontWeight: FontWeight.w500,
                                       textAlign: TextAlign.center),
@@ -119,7 +119,7 @@ class _HomeState extends State<Home> {
                                 Container(
                                   child: FontWidget(
                                       text: 'Libros',
-                                      size: 20,
+                                      size: 18,
                                       color: 0xFF000000,
                                       fontWeight: FontWeight.w500,
                                       textAlign: TextAlign.center),
@@ -159,7 +159,7 @@ class _HomeState extends State<Home> {
                                         const EdgeInsets.fromLTRB(10, 5, 10, 5),
                                     child: FontWidget(
                                         text: 'Buscar',
-                                        size: 20,
+                                        size: 18,
                                         color: 0xFFFFFFFF,
                                         fontWeight: FontWeight.w500,
                                         textAlign: TextAlign.center),
@@ -199,7 +199,7 @@ class _HomeState extends State<Home> {
                                 Container(
                                   child: FontWidget(
                                       text: 'Esperando busqueda',
-                                      size: 20,
+                                      size: 16,
                                       color: 0xFF0000000,
                                       fontWeight: FontWeight.w500,
                                       textAlign: TextAlign.center),
