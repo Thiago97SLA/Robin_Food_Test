@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Prueba Hewlett Packard',
+        title: 'The Library',
         theme: ThemeData(
           fontFamily: 'Montserrat',
           visualDensity: VisualDensity.adaptivePlatformDensity,
